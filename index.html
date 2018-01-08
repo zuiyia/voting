@@ -10,28 +10,31 @@
   <table class="table table-bordered">
    <thead>
     <tr>
-     <th>Candidate</th>
-     <th>Votes</th>
+     <th>候选人</th>
+     <th>票数</th>
+     <th>操作</th>
     </tr>
    </thead>
    <tbody>
     <tr>
      <td>Bill</td>
      <td id="candidate-1"></td>
+     <td><a href="#" onclick="voteForCandidate('Bill')" class="btn btn-primary">投票</a></td>
     </tr>
     <tr>
      <td>Mike</td>
      <td id="candidate-2"></td>
+     <td><a href="#" onclick="voteForCandidate('Mike')" class="btn btn-primary">投票</a></td>
     </tr>
     <tr>
      <td>Black</td>
      <td id="candidate-3"></td>
+     <td><a href="#" onclick="voteForCandidate('Black')" class="btn btn-primary">投票</a></td>
     </tr>
    </tbody>
   </table>
  </div>
- <input type="text" id="candidate" />
- <a href="#" onclick="voteForCandidate()" class="btn btn-primary">Vote</a>
+ 
 </body>
 <script src="./web3.js"></script>
 <script src="https://cdn.bootcss.com/jquery/3.1.1/jquery.min.js"></script>
